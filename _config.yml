@@ -36,6 +36,26 @@ plugins:
 
 github:
   repo: hanxi/webstack-jekyll
+  
+# Google analytics
+google_analytics: "G-EXE1PJ8CR2"
+
+webstack:
+  search:
+    enabled: true
+    default: baidu
+    # 可选的搜索引擎
+    engines:
+    
+      - baidu
+      - bing
+      - sougou
+      - google
+      - github  
+      - zhihu
+      - weibo
+      - bilibili
+      - douban
 
 # Exclude from processing.
 # The following items will not be processed, by default.
